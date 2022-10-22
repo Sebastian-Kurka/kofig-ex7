@@ -2,13 +2,13 @@
 
 ## Exercise 7
 
-### ToDo
+### ToDo:
 
 - [x] Erweitern Sie Ihr pom.xml um die relevanten Bibliotheken bzw. Konfigurationen
   um die die folgenden Teile der Aufgabe umzusetzen
   - [x] Die eigenen Entwickler*innen
     Informationen hinzufügen.
-  - [x]  Die Adresse des Git Repositiories hinzufügen.
+  - [x]  Die Adresse des Git Repositories hinzufügen.
 
 
 - [x] Im bestehenden Code sind drei Fehler – finden Sie diese und korrigieren Sie diese
@@ -28,8 +28,8 @@
 
 - [ ] Tests erstellen
   - [x] 100%ige Testabdeckung für bestehende Implementierung.
-  - [x] Erstellen Sie ein weiters Testfile und testen Sie darin die neue Drinks
-    Version mit einer Klasse Iher Wahl. Erreichen Sie eine 100%ige
+  - [x] Erstellen Sie ein weiters Testfile und testen Sie darin die neue Drinks-Version 
+    mit einer Klasse Iher Wahl. Erreichen Sie eine 100%ige
     Testabdeckung
   - [ ] Beschreiben Sie in den JavaDoc & Kommentaren wie Sie welchen Aspekt
     testen
@@ -43,7 +43,7 @@
     hinzufügen
     - Beschreiben Sie darin Ihre Contributions bei der Umsetzung des
       Projekts.
-  - [ ] Der Aufruf mvn site von der Kommandozeile muss fehlerfrei ausführbar
+  - [x] Der Aufruf mvn site von der Kommandozeile muss fehlerfrei ausführbar
     sein
 
 
