@@ -1,14 +1,19 @@
 package at.fhj.msd;
-
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        
-        System.out.println( "Hello World!" );
+        StringQueue dq = new StringQueue(3);
+        dq.offer("Gin");
+        dq.offer("Wein");
+        dq.offer("Bier");
+
+        System.out.println(dq.poll());
+        System.out.println(dq.peek());
+        System.out.println(dq.poll());
+        System.out.println(dq.poll());
+        System.out.println(dq.poll());
+
+
     }
 }
