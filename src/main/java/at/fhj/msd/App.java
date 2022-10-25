@@ -7,13 +7,5 @@ public class App
         dq.offer("Gin");
         dq.offer("Wein");
         dq.offer("Bier");
-
-        System.out.println(dq.poll());
-        System.out.println(dq.peek());
-        System.out.println(dq.poll());
-        System.out.println(dq.poll());
-        System.out.println(dq.poll());
-
-
     }
 }

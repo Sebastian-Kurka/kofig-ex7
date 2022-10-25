@@ -12,7 +12,6 @@ public abstract class Drink {
      * Creates a Drink object with given name
      *
      * @param name name of the drink
-     *
      */
     public Drink(String name) {
         this.name = name;

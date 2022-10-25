@@ -1,29 +1,42 @@
 package at.fhj.msd;
 
-// fastly written (not really nice) comments but good enough to understand
+/**
+ * represents an interface for the drink-queue
+ */
 public interface IDrinkQueue {
-    /*
-    add object to queue, return true if works, otherwise false
-    */
+
+    /**
+     * adds object to queue,
+     *
+     * @return true if works, otherwise false.
+     */
     public abstract boolean offer(Drink obj);
 
-    /*
-    returns and deletes first element; null if no element in there
+    /**
+     * returns and deletes first element.
+     *
+     * @return null if no element in queue.
      */
     public abstract Drink poll();
 
-    /*
-    like poll but if no elment exists NoSuchElementException is thrown instead of null return value
+    /**
+     * returns and deletes first element.
+     *
+     * @throws java.util.NoSuchElementException if no element in queue.
      */
     public abstract Drink remove();
 
-    /*
-    gives first element but does not delete, null if nothing there
+    /**
+     * gives first element but does not delete.
+     *
+     * @return null if nothing in queue.
      */
     public abstract Drink peek();
 
-    /*
-    like peek but NoSuchElementException instead of null
+    /**
+     * gives first element but does not delete.
+     *
+     * @throws java.util.NoSuchElementException if no element in queue.
      */
     public abstract Drink element();
 }
