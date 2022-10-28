@@ -39,7 +39,7 @@
 - [ ] Erstellen Sie eine maven site Dokumentation:
   - [ ] Integrieren und adaptieren Sie allgemeine Projektinformationen,
     Teststatistiken (jacoco) und auch die generierte API Dokumentation.
-  - [ ] Eine zusätzliche Markdown Datei nachname.md
+  - [x] Eine zusätzliche Markdown Datei nachname.md
     hinzufügen
     - Beschreiben Sie darin Ihre Contributions bei der Umsetzung des
       Projekts.
