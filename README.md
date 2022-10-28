@@ -17,21 +17,21 @@
     Sie die Ergebnisse zurück.
 
 
-- [ ] Erstellen Sie parallel zur gegebenen Version eine neue Implementierung:
+- [x] Erstellen Sie parallel zur gegebenen Version eine neue Implementierung:
   - [x] Integrieren Sie das Drinks Interface und eine implementierende Klasse in
     das Projekt.
   - [x] Erstellen Sie eine Queue Version die es ermöglicht Drinks in einer Queue
     zu verwalten
-  - [ ] Erstellen Sie JavaDoc Kommentare für die bereits zur Verfügung gestellte
+  - [x] Erstellen Sie JavaDoc Kommentare für die bereits zur Verfügung gestellte
     Klassen, als auch die neue Variante
   
 
-- [ ] Tests erstellen
+- [x] Tests erstellen
   - [x] 100%ige Testabdeckung für bestehende Implementierung.
   - [x] Erstellen Sie ein weiters Testfile und testen Sie darin die neue Drinks-Version 
     mit einer Klasse Iher Wahl. Erreichen Sie eine 100%ige
     Testabdeckung
-  - [ ] Beschreiben Sie in den JavaDoc & Kommentaren wie Sie welchen Aspekt
+  - [x] Beschreiben Sie in den JavaDoc & Kommentaren wie Sie welchen Aspekt
     testen
   - [x] Der Aufruf mvn test von der Kommandozeile muss fehlerfrei ausführbar
     sein.
